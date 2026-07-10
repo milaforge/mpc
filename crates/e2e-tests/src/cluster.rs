@@ -22,7 +22,7 @@ use crate::mpc_node::{MpcNode, MpcNodeSetup, MpcNodeSetupArgs, NodePorts};
 use crate::near_sandbox::NearSandbox;
 use crate::port_allocator::E2ePortAllocator;
 
-const DEFAULT_SANDBOX_VERSION: &str = "2.11.1";
+const DEFAULT_SANDBOX_VERSION: &str = "2.13.0";
 const SANDBOX_ROOT_ACCOUNT: &str = "sandbox";
 const SANDBOX_ROOT_SECRET_KEY: &str = near_sandbox::config::DEFAULT_GENESIS_ACCOUNT_PRIVATE_KEY;
 const POLL_INTERVAL: Duration = Duration::from_millis(500);
